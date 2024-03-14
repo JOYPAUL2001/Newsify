@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Newsify</string>
+    <string name="favourites">Favourites</string>
+    <string name="search">Search</string>
+    <string name="headlines">Headlines</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favourites_fr">Favourites</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet">No Internet</string>
+    <string name="headliness">Headlines</string>
+    <string name="searchs">Search</string>
+    <string name="search_news">Search news...</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="title">TITLE</string>
+    <string name="source">SOURCE</string>
+    <string name="date_time">DATE TIME</string>
+</resources>
