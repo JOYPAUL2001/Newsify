@@ -74,4 +74,9 @@ dependencies {
     // Glide
     implementation (libs.glide)
     ksp (libs.compiler)
+
+
+    implementation(libs.google.material)
+
+//    implementation("com.github.ibrahimsn98:SmoothBottomBar:1.7.8")
 }

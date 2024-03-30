@@ -14,20 +14,22 @@
         android:fontFamily="@font/poppins"
         android:textColor="@color/purple"
         android:textStyle="bold"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
+
+<!--    android:drawableEnd="@drawable/baseline_search_24"-->
     <EditText
         android:id="@+id/searchEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="70dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/search_border"
-        android:drawableEnd="@drawable/baseline_search_24"
+
         android:drawableTint="@color/purple"
         android:fontFamily="@font/poppins"
         android:hint="@string/search_news"

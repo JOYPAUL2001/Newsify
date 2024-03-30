@@ -15,6 +15,7 @@ material = "1.11.0"
 activity = "1.8.2"
 constraintlayout = "2.1.4"
 navigationFragmentKtx = "2.7.7"
+materialVersion = "1.11.0"
 navVersion = "2.7.7"
 retrofit = "2.9.0"
 roomRuntime = "2.6.1"
@@ -30,6 +31,7 @@ androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref =
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+google-material = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

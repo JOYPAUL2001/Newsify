@@ -1,15 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Newsify" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Newsify" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Customize your light theme here. -->
          <item name="colorPrimary">@color/purple</item>
         <item name="colorPrimaryVariant">@color/purple</item>
         <item name="android:statusBarColor">@color/purple</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
     </style>
 
     <style name="Theme.Newsify" parent="Base.Theme.Newsify" />
 
-    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator" >
-        <item name="android:color">@color/yellow</item>
-    </style>
+
 </resources>

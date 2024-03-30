@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.newsify.R
 
 
-class SearchFragment : Fragment() {
+class SearchFragment : Fragment(R.layout.fragment_search) {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

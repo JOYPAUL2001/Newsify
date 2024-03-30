@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.newsify.R
 
 
-class HeadlineFragment : Fragment() {
+class HeadlineFragment : Fragment(R.layout.fragment_headline) {
 
 
     override fun onCreateView(

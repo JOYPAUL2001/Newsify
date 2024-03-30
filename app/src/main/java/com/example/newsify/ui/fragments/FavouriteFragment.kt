@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.newsify.R
 
-class FavouriteFragment : Fragment() {
+class FavouriteFragment : Fragment(R.layout.fragment_favourite) {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
