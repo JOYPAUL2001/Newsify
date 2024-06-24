@@ -11,6 +11,9 @@
         android:label="ArticleFragment"
         tools:layout="@layout/fragment_article"
         >
+        <argument
+            android:name="article"
+            app:argType="com.example.newsify.models.Article" />
 
 
     </fragment>
