@@ -36,9 +36,6 @@ abstract class ArticleDatabase: RoomDatabase() {
                 instance = it
             }
         }
-
-
-
         //This method is responsible for creating the database.
         private fun createDatabase(context: Context) =
             Room.databaseBuilder(
@@ -46,7 +43,5 @@ abstract class ArticleDatabase: RoomDatabase() {
                 ArticleDatabase::class.java,
                 "article_db.db"
             ).build()
-
-
     }
 }
