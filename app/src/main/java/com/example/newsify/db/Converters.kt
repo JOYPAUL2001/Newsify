@@ -7,7 +7,7 @@ class Converters {
 
     @TypeConverter
     fun fromSource(source: Source): String{
-        return source.name
+        return source.name.toString()
     }
 
     @TypeConverter

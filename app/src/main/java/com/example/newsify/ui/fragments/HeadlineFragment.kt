@@ -115,7 +115,7 @@ class HeadlineFragment : Fragment(R.layout.fragment_headline) {
     }
 
     private fun hideErrorMessage(){
-        itemHeadlinesError.visibility = View.VISIBLE
+        itemHeadlinesError.visibility = View.INVISIBLE
         isError = false
     }
 

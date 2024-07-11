@@ -7,6 +7,7 @@
         <item name="android:statusBarColor">@color/purple</item>
         <item name="android:windowBackground">@color/white</item>
         <item name="android:colorBackground">@color/white</item>
+
     </style>
 
     <style name="Theme.Newsify" parent="Base.Theme.Newsify" />
